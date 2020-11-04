@@ -1,0 +1,74 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.parent {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.child {
+  width: 25%;
+  height: 25%;
+  background-color: red;
+  border-radius: 50%;
+}
+.ch-1 {
+  position: absolute;
+  top: 12.5%;
+  left: 12.5%;
+}
+.ch-1:hover {
+  background-color: slateblue;
+  z-index: 10;
+}
+.ch-2 {
+  position: absolute;
+  top: 12.5%;
+  right: 12.5%;
+}
+.ch-2:hover {
+  background-color: rgb(252, 236, 22);
+  z-index: 10;
+}
+.ch-3 {
+  position: absolute;
+  top: 62.5%;
+  left: 12.5%;
+}
+.ch-3:hover {
+  background-color: rgb(0, 255, 0);
+  z-index: 10;
+}
+.ch-4 {
+  position: absolute;
+  top: 62.5%;
+  right: 12.5%;
+}
+.ch-4:hover {
+  background-color: rgb(88, 222, 255);
+  z-index: 10;
+}
+.child-2 {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  background-color: blue;
+}
+.child-2:hover {
+  background-color: rgb(236, 88, 255);
+  z-index: 5;
+}
+.child-3 {
+  position: absolute;
+  top: 37.5%;
+  right: 37.5%;
+  width: 25%;
+  height: 25%;
+  background-color: coral;
+  border-radius: 20%;
+}
